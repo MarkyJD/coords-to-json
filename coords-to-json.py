@@ -1,7 +1,7 @@
 """Purpose built for Earthle. Converts a line-seperated list of comma-seperated coordinates into a JSON file.
 
 Usage:
-    gen-coords.py -i <input_file>
+    coords-to-json.py -i <input_file>
 
 Arguments:
     <input_file> (REQUIRED)  The input file to read from.
@@ -13,7 +13,7 @@ Output:
     A JSON file named with start and end dates of the coordinates.
       
 Example:
-    gen-coords.py -i coords.txt -d 2022-10-05
+    coords-to-json.py -i coords.txt -d 2022-10-05
 
     example output:
       
